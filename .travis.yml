@@ -3,8 +3,10 @@ language: ruby
 rvm:
   - 1.9.3
 
+
 env:
   - TEST_CONFIG=test_mysql
+
 
 gemfile:
   - gemfiles/Gemfile.rails-3.2.x
