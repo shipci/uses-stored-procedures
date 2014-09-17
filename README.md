@@ -3,7 +3,7 @@
 [![Code Climate](https://codeclimate.com/github/leopoldodonnell/uses-stored-procedures.png)](https://codeclimate.com/github/leopoldodonnell/uses-stored-procedures)
 [![Gem Version](https://fury-badge.herokuapp.com/rb/uses-store-procedures.png)](http://badge.fury.io/rb/uses-store-procedures)
 
-uses-stored-procedure 
+uses-stored-procedure concept
 # UsesStoredProcedures
 
 Extends ActiveRecord with the ability to use SQL Stored Procedures in Rails.
