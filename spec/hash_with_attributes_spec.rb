@@ -3,7 +3,7 @@ require 'uses_stored_procedures/hash_with_attributes'
 
 describe "HashWithAttributesSpec" do
   sym_hash    = {:one => 1, :two => 2}
-  string_hash = {'one' => 1, 'two' => 3}
+  string_hash = {'one' => 1, 'two' => 2}
   
   it "is a Hash that responds to methods named as keys to the hash where keys are strings" do
     h = UsesStoredProcedures::HashWithAttributes.new.merge string_hash
