@@ -7,7 +7,10 @@ rvm:
 
 
 env:
+ global:  
   - TEST_CONFIG=test_mysql
+  - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
+
 
 gemfile:
   - gemfiles/Gemfile.rails-3.2.x
