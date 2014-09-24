@@ -24,6 +24,6 @@ end
 Bundler::GemHelper.install_tasks
 
 desc "Run all specs"
-RSpec::Core::RakeTask.new(:spec)
+RSpec::Core::RakeTask.new(:spec=> ["ci:setup:rspec"])
 
 task :default => :spec
