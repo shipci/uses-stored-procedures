@@ -1,4 +1,9 @@
 require 'active_record'
+require 'simplecov'
+require 'simplecov-csv'
+SimpleCov.formatter = SimpleCov::Formatter::CSVFormatter
+SimpleCov.coverage_dir(ENV["COVERAGE_REPORTS"])
+SimpleCov.start
 
 cnf = YAML::load_file(File.join(File.dirname(File.expand_path(__FILE__)), 'config.yml'))
 config_block = ENV['TEST_CONFIG'] || 'test'
