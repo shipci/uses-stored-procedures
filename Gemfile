@@ -6,6 +6,11 @@ source "http://rubygems.org"
 gemspec
 
 gem "rails", "~> 3.2.9"
+# gem "rails"
+gem "rspec"
+gem "ci_reporter"
+gem "simplecov"
+gem "simplecov-csv"
 
 # jquery-rails is used by the dummy application
 gem "jquery-rails"
